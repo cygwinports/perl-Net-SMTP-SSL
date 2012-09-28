@@ -1,0 +1,5 @@
+NAME="perl-Net-SMTP-SSL"
+VERSION=1.01
+RELEASE=1
+CPAN_AUTHOR=cwest
+inherit perl
