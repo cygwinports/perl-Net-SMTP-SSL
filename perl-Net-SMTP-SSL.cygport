@@ -1,5 +1,12 @@
-NAME="perl-Net-SMTP-SSL"
-VERSION=1.01
-RELEASE=1
-CPAN_AUTHOR=cwest
+CPAN_AUTHOR=rjbs
 inherit perl
+
+NAME="perl-Net-SMTP-SSL"
+VERSION=1.03
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl distribution Net-SMTP-SSL"
+DESCRIPTION="Implements the same API as Net::SMTP, but uses IO::Socket::SSL for
+its network operations in order to support encrypted connections."
+
+ARCH=noarch
